@@ -1,0 +1,28 @@
+.TodoListItem {
+   padding: 1rem;
+   display: inline-block;
+   text-align: center;
+}
+.TodoListItem:nth-child(even) {
+   background: hsl(210, 15%, 90%);
+}
+
+.TodoListItem img {
+   width: 150px;
+   height: 150px;
+}
+
+.TodoListItem .buttons {
+   display: flex;
+   justify-content: center;
+   margin-top: 5px;
+}
+.TodoListItem .buttons button {
+   margin-right: 15px;
+   background-color: #adb5bd;
+}
+
+.TodoListItem .buttons .remove {
+   font-size: 18px;
+   color: #da343c;
+}
